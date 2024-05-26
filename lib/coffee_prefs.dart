@@ -9,15 +9,15 @@ class CoffeePrefs extends StatelessWidget {
       children: [
         Row(
           children: [
-            Text('Strength'),
+            Text('Strength: '),
             Text('3'),
             SizedBox(width: 50),
           ],
         ),
         Row(
           children: [
-            Text('Sugar'),
-            Text('3'),
+            Text('Sugar: '),
+            Text('5'),
             SizedBox(width: 50),
           ],
         )
